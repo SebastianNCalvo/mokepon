@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body{
+    font-family: "Lora", serif;
+    background-color: #FFE3BB;
+}
+
+
+#seleccionar-mascota{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titulo{
+    color: white;
+    font-size: 32px;
+}
+.subtitulo{
+    color: white;
+    font-size: 20px;
+}
+
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+}
+
+.tarjeta-de-mokepon{
+    width: 180px;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta-de-mokepon img{
+    width: 80px;
+}
+
+#hipodoge-label, #boton-agua{
+    background-color: #98D8EF;
+}
+#capipepo-label, #boton-tierra{
+    background-color: #5F8B4C;
+}
+#ratigueya-label, #boton-fuego{
+    background-color: #FFA673;
+}
+input{
+    display: none;
+}
+
+#boton-mascota{
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+#seleccionar-ataque{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.boton-ataque{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 5px;
+}
