@@ -63,7 +63,7 @@ input{
 }
 
 #capipepo:checked + label{
-    background-color: #418a22;
+    background-color: #2f860a;
 }
 
 #ratigueya:checked + label{
@@ -89,6 +89,7 @@ input{
     height: 45px;
     border-radius: 20px;
     margin: 5px;
+    border: transparent;
 }
 
 #mensajes{
